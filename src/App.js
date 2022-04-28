@@ -1,11 +1,13 @@
+import React from "react";
+import "./App.css";
+import { SearchMain } from "./components";
 
-import './App.css';
-import SearchMain from "./components/searchMain";
-
-function App() {
+const App = () => {
   return (
-    <div class="App"><SearchMain /></div>
+    <div className="App">
+      <SearchMain />
+    </div>
   );
-}
+};
 
 export default App;

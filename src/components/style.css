@@ -13,9 +13,6 @@
   width: 100vw;
   background-position: center center;
   background-size: cover;
-  /* position: relative; */
-  /* font-family: "Merriweather Sans", sans-serif; */
-  /* color: white; */
   transition-duration: 1s;
   overflow: hidden;
 }
@@ -195,11 +192,3 @@ body {
   margin-bottom: 50px;
 }
 
-/*Resize the wrap to see the search bar change!*/
-/* .wrap {
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */

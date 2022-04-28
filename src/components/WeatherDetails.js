@@ -1,9 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import Clear from "./assets/clear.jpg";
-// import Cloudy from "./assets/cloudy.jpg";
-// import Overcast from "./assets/overcast.jpg";
-// import Rainy from "./assets/rainy.jpg";
-// import Snow from "./assets/snow.jpg";
 
 function WeatherDetails({
   temp,

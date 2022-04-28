@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "../components/style.css";
 import WeatherDetails from "./WeatherDetails";
 
-function SearchMain() {
+const SearchMain = () => {
   const [searchTerm, setSearchTerm] = useState("Hobart");
-  const [countryN, searCountry] = useState('');
+  const [countryN, searCountry] = useState("");
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
@@ -39,7 +39,7 @@ function SearchMain() {
 
   useEffect(() => {
     getWeatherInfo();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
